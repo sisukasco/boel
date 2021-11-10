@@ -1,2 +1,2 @@
-# boel
-Javascript Form validation Library
+# Boel
+Javascript Form Validation Library
