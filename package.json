@@ -15,7 +15,7 @@
     "prebuild": "yarn clean",
     "build": "cross-env NODE_ENV=production rollup -c ",
     "watch": "cross-env NODE_ENV=development rollup -c --watch",
-    "release": "yarn publish --no-git-tag-version",
+    "release": "yarn publish --access public",
     "test": "jest",
     "lint": "eslint 'src/**/*.{js,ts}'"
   },
